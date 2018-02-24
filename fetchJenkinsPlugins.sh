@@ -1,0 +1,1 @@
+curl -s -u admin:admin "http://192.168.99.100:8080/pluginManager/api/json?depth=1&xpath=/*/*/shortName|/*/*/version&wrapper=plugins" > plugins.json
